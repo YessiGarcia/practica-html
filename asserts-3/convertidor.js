@@ -1,9 +1,11 @@
 function convertirFarenheit (celsius){
-  var resultado = celsius * 9.5 + 32;
-  return resultado;
+  var area = documet.getElementById('farenheit').value
+  var resultado = parseInt(celsius) *9.5 + 32;
+  documt.getElementById('farenheit').value = resultado
 }
 
 function convertirCelsius (farenheit){
-  var resultado = (farenheit - 32)*5/9;
-  return resultado;
+  var area = documet.getElementById('celsius').value
+  var resultado = parseInt(farenheit) *9.5 + 32;
+  documt.getElementById('celsius').value = resultado 
 }
