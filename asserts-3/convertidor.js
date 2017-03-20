@@ -1,11 +1,11 @@
-function convertirFarenheit (celsius){
-  var farenheit = documet.getElementById('farenheit').value
-  var resultado = parseInt(celsius) *9.5 + 32;
-  documt.getElementById('farenheit').value = resultado
+function convertirFarenheit (){
+  var farenheit = document.getElementById('farenheit').value;
+  var celsius = (farenheit - 32) * 5 / 9;
+  document.getElementById('celsius').value = celsius;
 }
 
-function convertirCelsius (farenheit){
-  var celsius = documet.getElementById('celsius').value
-  var resultado = parseInt(farenheit) *9.5 + 32;
-  documt.getElementById('celsius').value = resultado
+function convertirCelsius (){
+  var celsius = document.getElementById('celsius').value;
+  var farenheit = celsius * 9 / 5 + 32;
+  document.getElementById('farenheit').value = farenheit;
 }
